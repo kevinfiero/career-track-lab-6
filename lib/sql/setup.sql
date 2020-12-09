@@ -1,6 +1,6 @@
-DROP TABLE IF EXISTS filament;
+DROP TABLE IF EXISTS filaments;
 
-CREATE TABLE filament (
+CREATE TABLE filaments (
     id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
     filament_name TEXT NOT NULL,
     brand TEXT NOT NULL,
